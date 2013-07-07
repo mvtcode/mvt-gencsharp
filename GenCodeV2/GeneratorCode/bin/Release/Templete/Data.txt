@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using [namespace].Entity;
-using [namespace].Services;
 using [namespace].Core;
 
 namespace [namespace].Data
@@ -70,13 +69,12 @@ namespace [namespace].Data
                 list = new List<<table_name>Info>();
                 while (r.Read())
                 {
-					List.Add(FillData(r));
+					list.Add(FillData(r));
                 }
                 r.Close();
                 r.Dispose();
             }
 
-            total = t;
             return list;
         }
 
@@ -96,7 +94,7 @@ namespace [namespace].Data
                 list = new List<<table_name>Info>();
                 while (r.Read())
                 {
-					List.Add(FillData(r));
+					list.Add(FillData(r));
                 }
                 r.Close();
                 r.Dispose();
@@ -112,7 +110,6 @@ namespace [namespace].Data
             <table_name>Info info = new <table_name>Info();
             <column_name>
             return info;
-
         }
     }
 }

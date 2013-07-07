@@ -115,8 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Release\Templete\Data.txt" />
-    <Content Include="bin\Release\Templete\Impl.txt" />
-    <Content Include="bin\Release\Templete\Service.txt" />
     <Content Include="bin\Release\Templete\Entity.txt" />
     <Content Include="bin\Release\Templete\StoreProcedure.txt" />
   </ItemGroup>
