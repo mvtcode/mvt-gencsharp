@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GenCsharp">
+</Property><Property Name="Solution File" Value="D:\Utility\GenCode\GenCsharp.sln">
+</Property><Property Name="User Options File" Value="D:\Utility\GenCode\GenCsharp.suo">
+</Property><Property Name="Date" Value="Thursday, December 22, 2011">
+</Property><Property Name="Time" Value="21:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GenCsharp.sln" Description="File successfully backed up as D:\Utility\GenCode\Backup\GenCsharp.sln">
+</Event><Event ErrorLevel="0" Project="" Source="GenCsharp.suo" Description="File successfully backed up as D:\Utility\GenCode\Backup\GenCsharp.suo">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\GenCsharp.csproj" Description="Project file successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\GenCsharp.csproj">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\GenCsharp.csproj.user" Description="Project user file successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\GenCsharp.csproj.user">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Argument.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Argument.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Config.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Config.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\DataHelper.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\DataHelper.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\IUser.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\IUser.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\UserInfo.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\UserInfo.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Input.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Input.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Input.Designer.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Input.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\UserService.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\UserService.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Main.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Main.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Main.Designer.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Main.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Program.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Program.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Properties\Settings.settings" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\bin\Release\Templete\Impl.txt" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\bin\Release\Templete\Impl.txt">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\bin\Release\Templete\Service.txt" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\bin\Release\Templete\Service.txt">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\bin\Release\Templete\Entity.txt" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\bin\Release\Templete\Entity.txt">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\bin\Release\Templete\StoreProcedure.txt" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\bin\Release\Templete\StoreProcedure.txt">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Input.resx" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Input.resx">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Main.resx" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Main.resx">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\Properties\Resources.resx" Description="File successfully backed up as D:\Utility\GenCode\Backup\GeneratorCode\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\GenCsharp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GenCsharp" Source="GeneratorCode\GenCsharp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\CoreGen.csproj" Description="Project file successfully backed up as D:\Utility\GenCode\Backup\Core\CoreGen.csproj">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Adapters.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Adapters.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Commands.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Commands.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\ConnStrArgs.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\ConnStrArgs.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Constants.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Constants.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Generator.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Generator.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\Connections.cs" Description="File successfully backed up as D:\Utility\GenCode\Backup\Core\Connections.cs">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\CoreGen.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CoreGen" Source="Core\CoreGen.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GenCsharp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GenCsharp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GenCsharp" Source="GeneratorCode\GenCsharp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CoreGen" Source="Core\CoreGen.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

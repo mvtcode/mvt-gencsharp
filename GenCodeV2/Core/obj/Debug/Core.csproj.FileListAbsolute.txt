@@ -1,0 +1,15 @@
+D:\Utility\HcubiuTool\GenCode\SqlClassFactory\bin\Debug\Core.dll
+D:\Utility\HcubiuTool\GenCode\SqlClassFactory\bin\Debug\Core.pdb
+D:\Utility\HcubiuTool\GenCode\SqlClassFactory\obj\Debug\ResolveAssemblyReference.cache
+D:\Utility\HcubiuTool\GenCode\SqlClassFactory\obj\Debug\Core.dll
+D:\Utility\HcubiuTool\GenCode\SqlClassFactory\obj\Debug\Core.pdb
+D:\Utility\HcubiuTool\GenCode\Core\bin\Debug\Core.dll
+D:\Utility\HcubiuTool\GenCode\Core\bin\Debug\Core.pdb
+D:\Utility\HcubiuTool\GenCode\Core\obj\Debug\ResolveAssemblyReference.cache
+D:\Utility\HcubiuTool\GenCode\Core\obj\Debug\Core.dll
+D:\Utility\HcubiuTool\GenCode\Core\obj\Debug\Core.pdb
+E:\Project_VTC\GenCode\Core\bin\Debug\Core.dll
+E:\Project_VTC\GenCode\Core\bin\Debug\Core.pdb
+E:\Project_VTC\GenCode\Core\obj\Debug\ResolveAssemblyReference.cache
+E:\Project_VTC\GenCode\Core\obj\Debug\Core.dll
+E:\Project_VTC\GenCode\Core\obj\Debug\Core.pdb

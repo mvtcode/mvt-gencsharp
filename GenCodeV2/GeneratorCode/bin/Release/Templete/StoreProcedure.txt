@@ -1,0 +1,157 @@
+﻿IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_Add]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_Add]
+GO 
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE usp_<table_name>_Add 
+	[column_name]
+AS
+BEGIN	
+
+	SET NOCOUNT OFF;
+	Insert Into [<table_name>]
+	(
+		$column_name$
+	)
+	values
+	(
+		!column_name!
+	)
+END
+    select @@IDENTITY
+GO
+
+
+IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_Update]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_Update]
+GO 
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE usp_<table_name>_Update 
+	[column_nameu]
+AS
+BEGIN	
+
+	SET NOCOUNT OFF;
+	
+	Update [<table_name>]
+	Set	
+		#column_name#
+	Where
+		#primakey#
+END
+GO
+
+
+IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_Delete]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_Delete]
+GO 
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE usp_<table_name>_Delete 
+	<column_name>
+AS
+BEGIN	
+
+	SET NOCOUNT OFF;
+	
+	Delete From [<table_name>]
+	Where
+		#primakey#
+END
+GO
+
+
+IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_GetById]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_GetById]
+GO 
+
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE usp_<table_name>_GetById 
+	<column_name>
+AS
+BEGIN	
+
+	SET NOCOUNT ON;
+	
+	Select 
+		#primakey1#,$column_name$
+	From [<table_name>]
+	Where
+		#primakey#
+END
+GO
+
+ ---Get List [<table_name>] ---
+ ---PageIndex: from index ---
+ ---PageSize: number record ---
+ ---totalrow: return record of [<table_name>] ---
+
+IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_GetList]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_GetList]
+GO 
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE usp_<table_name>_GetList
+	@PageIndex int,
+	@PageSize int,
+	@totalrow int output
+AS
+BEGIN
+	DECLARE @from int
+	DECLARE @to int
+
+    SET @from = @PageIndex * @PageSize + 1;
+	SET @to = @from + @PageSize - 1;
+
+	SELECT 
+		#primakey1#,$column_name$
+	FROM (
+			SELECT 
+				#primakey1#,$column_name$,
+				ROW_NUMBER() OVER(ORDER BY #primakey1# ASC) as ROWNUMBER
+			FROM [<table_name>]
+		  ) as p  where ROWNUMBER between @from and @to
+
+	SET @totalrow = (SELECT count(*) FROM [<table_name>])
+	
+END
+GO
+

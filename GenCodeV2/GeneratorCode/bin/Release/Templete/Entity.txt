@@ -1,0 +1,10 @@
+﻿using System;
+
+namespace [namespace].Entity
+{
+	[Serializable]
+	public class <table_name>Info
+	{
+		<column_name>
+	}
+}

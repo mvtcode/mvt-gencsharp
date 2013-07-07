@@ -1,0 +1,15 @@
+C:\Users\Ozgur.Sonmez\Documents\Visual Studio 2008\Projects\Denemeler\SqlClassFactory\SqlClassFactory\bin\Debug\SqlClassFactory.dll
+C:\Users\Ozgur.Sonmez\Documents\Visual Studio 2008\Projects\Denemeler\SqlClassFactory\SqlClassFactory\bin\Debug\SqlClassFactory.pdb
+C:\Users\Ozgur.Sonmez\Documents\Visual Studio 2008\Projects\Denemeler\SqlClassFactory\SqlClassFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ozgur.Sonmez\Documents\Visual Studio 2008\Projects\Denemeler\SqlClassFactory\SqlClassFactory\obj\Debug\SqlClassFactory.dll
+C:\Users\Ozgur.Sonmez\Documents\Visual Studio 2008\Projects\Denemeler\SqlClassFactory\SqlClassFactory\obj\Debug\SqlClassFactory.pdb
+D:\Projects\HcubiuTool\SqlClassFactory_src\SqlClassFactory\bin\Debug\SqlClassFactory.dll
+D:\Projects\HcubiuTool\SqlClassFactory_src\SqlClassFactory\bin\Debug\SqlClassFactory.pdb
+D:\Projects\HcubiuTool\SqlClassFactory_src\SqlClassFactory\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\HcubiuTool\SqlClassFactory_src\SqlClassFactory\obj\Debug\SqlClassFactory.dll
+D:\Projects\HcubiuTool\SqlClassFactory_src\SqlClassFactory\obj\Debug\SqlClassFactory.pdb
+D:\Utility\HcubiuTool\SqlClassFactory\SqlClassFactory\bin\Debug\SqlClassFactory.dll
+D:\Utility\HcubiuTool\SqlClassFactory\SqlClassFactory\bin\Debug\SqlClassFactory.pdb
+D:\Utility\HcubiuTool\SqlClassFactory\SqlClassFactory\obj\Debug\ResolveAssemblyReference.cache
+D:\Utility\HcubiuTool\SqlClassFactory\SqlClassFactory\obj\Debug\SqlClassFactory.dll
+D:\Utility\HcubiuTool\SqlClassFactory\SqlClassFactory\obj\Debug\SqlClassFactory.pdb
