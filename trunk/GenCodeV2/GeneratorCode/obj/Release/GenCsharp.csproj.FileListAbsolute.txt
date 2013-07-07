@@ -91,3 +91,5 @@ E:\Project\GenCodeV2\GeneratorCode\obj\Release\GenCsharp.Main.resources
 E:\Project\GenCodeV2\GeneratorCode\obj\Release\GenCsharp.Properties.Resources.resources
 E:\Project\GenCodeV2\GeneratorCode\obj\Release\GenerateResource-ResGen.read.1.tlog
 E:\Project\GenCodeV2\GeneratorCode\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Project\mvt-gencsharp\GenCodeV2\GeneratorCode\obj\Release\GenCsharp.exe
+E:\Project\mvt-gencsharp\GenCodeV2\GeneratorCode\obj\Release\GenCsharp.pdb
