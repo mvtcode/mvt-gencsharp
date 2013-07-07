@@ -1,0 +1,18 @@
+﻿using System.Collections.Generic;
+using [namespace].Entity;
+
+namespace [namespace].Service
+{
+	public interface I<table_name>
+	{
+		int Add(<table_name>Info info);
+			
+		int Update(<table_name>Info info);
+			
+		int Delete(int id);
+
+		<table_name>Info GetInfo(int id);
+
+		List<<table_name>Info> GetList(int pageIndex, int pageSize, out int total);
+	}
+}

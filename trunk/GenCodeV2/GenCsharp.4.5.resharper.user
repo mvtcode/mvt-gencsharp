@@ -1,0 +1,212 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="3" />
+      <Item value="static" priority="2" />
+      <Item value="void" priority="0" />
+      <Item value="return" priority="5" />
+      <Item value="Generator" priority="2" />
+      <Item value="row" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="_dtColumns" priority="2" />
+      <Item value="colname" priority="4" />
+      <Item value="true" priority="1" />
+      <Item value="pmkey" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="e" priority="0" />
+      <Item value="else" priority="2" />
+      <Item value="false" priority="1" />
+      <Item value="UserInfo" priority="3" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="4" />
+      <Item value="SqlParameter" priority="1" />
+      <Item value="info" priority="2" />
+      <Item value="using" priority="2" />
+      <Item value="null" priority="1" />
+      <Item value="SqlCommand" priority="1" />
+      <Item value="com" priority="4" />
+      <Item value="CommandType" priority="0" />
+      <Item value="con" priority="6" />
+      <Item value="SqlDataReader" priority="2" />
+      <Item value="if" priority="3" />
+      <Item value="r" priority="6" />
+      <Item value="while" priority="0" />
+      <Item value="internal" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="get" priority="1" />
+      <Item value="set" priority="0" />
+      <Item value="PrimaryKey" priority="3" />
+      <Item value="Args" priority="5" />
+      <Item value="Contains" priority="1" />
+      <Item value="Constraint" priority="0" />
+      <Item value="Argument" priority="0" />
+      <Item value="tableName" priority="0" />
+      <Item value="Commands" priority="3" />
+      <Item value="Command" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="Constants" priority="0" />
+      <Item value="Connections" priority="2" />
+      <Item value="dbName" priority="0" />
+      <Item value="Adapters" priority="0" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="end" priority="2" />
+      <Item value="break" priority="1" />
+      <Item value="Int32" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="Byte" priority="0" />
+      <Item value="byte" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="Convert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Generator">
+      <Item value="AddParameterSql" priority="1" />
+      <Item value="AddFileParamUpdate" priority="0" />
+      <Item value="AddParamSqlUpdate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="CommandText" priority="1" />
+      <Item value="CommandType" priority="0" />
+      <Item value="Connection" priority="1" />
+      <Item value="ExecuteReader" priority="1" />
+      <Item value="Parameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.CommandType">
+      <Item value="StoredProcedure" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="Read" priority="2" />
+      <Item value="Close" priority="0" />
+      <Item value="Dispose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GenCsharp.UserInfo">
+      <Item value="Birthday" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="CompareTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GenCsharp.Argument">
+      <Item value="GetPrimaryKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Args">
+      <Item value="Database" priority="1" />
+      <Item value="WheredDB" priority="2" />
+      <Item value="WheredTable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Commands">
+      <Item value="ListDBCmd" priority="0" />
+      <Item value="CommandPrimaryKey" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Constants">
+      <Item value="_getPrimaryKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Connections">
+      <Item value="GetConnection" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Core.Adapters">
+      <Item value="GetPrimarykey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open" priority="2" />
+      <Item value="Close" priority="1" />
+      <Item value="Disposed" priority="0" />
+      <Item value="Dispose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:Input.cs" caret="982" fromTop="24" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:IUser.cs" caret="0" fromTop="0" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:Argument.cs" caret="637" fromTop="13" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Commands.cs" caret="1521" fromTop="61" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Constants.cs" caret="1952" fromTop="63" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="258" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:UserService.cs" caret="3269" fromTop="14" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:StoreProcedure.txt" caret="774" fromTop="14" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="3383" fromTop="31" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="1220" fromTop="30" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Connections.cs" caret="0" fromTop="0" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:ConnStrArgs.cs" caret="0" fromTop="0" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:Main.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="16" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="15" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="23" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="29" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="6" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:Main.cs" caret="3578" fromTop="14" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="9" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="15" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="19" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:Main.cs" caret="1746" fromTop="13" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="2449" fromTop="75" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Commands.cs" caret="1518" fromTop="61" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Connections.cs" caret="1130" fromTop="36" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:ConnStrArgs.cs" caret="28" fromTop="2" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Constants.cs" caret="1952" fromTop="63" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Generator.cs" caret="9277" fromTop="258" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:UserService.cs" caret="3312" fromTop="16" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/f:UserService.cs" caret="2854" fromTop="5" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="3078" fromTop="16" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="2336" fromTop="19" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="2044" fromTop="10" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="2865" fromTop="13" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="1066" fromTop="9" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="2589" fromTop="6" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="3383" fromTop="23" />
+      <File id="EDF2EB8D-7336-4BA5-9463-93D0706DBC7D/d:bin/d:Release/d:Templete/f:Impl.txt" caret="3383" fromTop="23" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="1995" fromTop="10" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="1085" fromTop="14" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="716" fromTop="6" />
+      <File id="F927E77E-92D1-41F3-91FB-A87D5E34E4E4/f:Adapters.cs" caret="1219" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

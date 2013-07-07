@@ -1,0 +1,5 @@
+E:\Project_VTC\GenCode\Core\bin\Release\Core.dll
+E:\Project_VTC\GenCode\Core\bin\Release\Core.pdb
+E:\Project_VTC\GenCode\Core\obj\Release\ResolveAssemblyReference.cache
+E:\Project_VTC\GenCode\Core\obj\Release\Core.dll
+E:\Project_VTC\GenCode\Core\obj\Release\Core.pdb
