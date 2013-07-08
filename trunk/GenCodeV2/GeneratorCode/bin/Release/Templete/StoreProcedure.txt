@@ -129,6 +129,14 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
+CREATE PROCEDURE usp_<table_name>_GetAll
+AS
+BEGIN	
+	SELECT * FROM [<table_name>]
+END
+GO
+
+
 CREATE PROCEDURE usp_<table_name>_GetList
 	@PageIndex int,
 	@PageSize int,
