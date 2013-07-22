@@ -1,4 +1,5 @@
-﻿IF EXISTS (
+﻿-----------------procedure of <table_name>-----------------
+IF EXISTS (
 		SELECT *
 		FROM dbo.sysobjects
 		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_Add]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
@@ -112,16 +113,11 @@ BEGIN
 END
 GO
 
- ---Get List [<table_name>] ---
- ---PageIndex: from index ---
- ---PageSize: number record ---
- ---totalrow: return record of [<table_name>] ---
-
 IF EXISTS (
 		SELECT *
 		FROM dbo.sysobjects
-		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_GetList]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
-DROP PROCEDURE [dbo].[usp_<table_name>_GetList]
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_GetAll]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_GetAll]
 GO 
 
 SET ANSI_NULLS ON
@@ -136,6 +132,21 @@ BEGIN
 END
 GO
 
+ ---Get List [<table_name>] ---
+ ---PageIndex: from index ---
+ ---PageSize: number record ---
+ ---totalrow: return record of [<table_name>] ---
+IF EXISTS (
+		SELECT *
+		FROM dbo.sysobjects
+		WHERE id = OBJECT_ID(N'[dbo].[usp_<table_name>_GetList]') AND OBJECTPROPERTY(id,N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[usp_<table_name>_GetList]
+GO 
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE usp_<table_name>_GetList
 	@PageIndex int,
