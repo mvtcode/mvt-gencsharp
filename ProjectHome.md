@@ -1,0 +1,1 @@
+gen code c# từ db
